@@ -26,10 +26,9 @@ public class SwaggerConfig {
                 .apiInfo(apiDetail());
     }
 
-
     private ApiInfo apiDetail() {
         return new ApiInfo(
-                "Crypto exchange API",
+                "Vacation calc API",
                 "FULL API documentation here",
                 buildProperties.getVersion(),
                 "Full free to use",
